@@ -32,6 +32,7 @@
             this.btnWork = new System.Windows.Forms.Button();
             this.btnAnalytics = new System.Windows.Forms.Button();
             this.btnAnalyticsByFood = new System.Windows.Forms.Button();
+            this.btnKho = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnSystemSetup
@@ -78,11 +79,23 @@
             this.btnAnalyticsByFood.UseVisualStyleBackColor = true;
             this.btnAnalyticsByFood.Click += new System.EventHandler(this.btnAnalyticsByFood_Click);
             // 
+            // btnKho
+            // 
+            this.btnKho.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKho.Location = new System.Drawing.Point(612, 82);
+            this.btnKho.Name = "btnKho";
+            this.btnKho.Size = new System.Drawing.Size(100, 100);
+            this.btnKho.TabIndex = 3;
+            this.btnKho.Text = "kho";
+            this.btnKho.UseVisualStyleBackColor = true;
+            this.btnKho.Click += new System.EventHandler(this.btnKho_Click);
+            // 
             // FeatureSelector
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(667, 248);
+            this.ClientSize = new System.Drawing.Size(777, 248);
+            this.Controls.Add(this.btnKho);
             this.Controls.Add(this.btnAnalyticsByFood);
             this.Controls.Add(this.btnAnalytics);
             this.Controls.Add(this.btnWork);
@@ -103,5 +116,6 @@
         private System.Windows.Forms.Button btnWork;
         private System.Windows.Forms.Button btnAnalytics;
         private System.Windows.Forms.Button btnAnalyticsByFood;
+        private System.Windows.Forms.Button btnKho;
     }
 }

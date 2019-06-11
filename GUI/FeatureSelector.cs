@@ -38,5 +38,10 @@ namespace GUI
         {
             new AnalyticsByFood().ShowDialog();
         }
+
+        private void btnKho_Click(object sender, EventArgs e)
+        {
+            new QuanLyKho().ShowDialog();
+        }
     }
 }
