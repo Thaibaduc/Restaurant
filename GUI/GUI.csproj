@@ -66,6 +66,12 @@
     <Compile Include="Analytics.Designer.cs">
       <DependentUpon>Analytics.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="StaffWorking\AddDiscountDialog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -241,6 +247,9 @@
     <Compile Include="Utilities\UtilsImage.cs" />
     <EmbeddedResource Include="Analytics.resx">
       <DependentUpon>Analytics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StaffWorking\AddDiscountDialog.resx">
       <DependentUpon>AddDiscountDialog.cs</DependentUpon>

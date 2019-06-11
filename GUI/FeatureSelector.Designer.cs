@@ -31,6 +31,7 @@
             this.btnSystemSetup = new System.Windows.Forms.Button();
             this.btnWork = new System.Windows.Forms.Button();
             this.btnAnalytics = new System.Windows.Forms.Button();
+            this.btnAnalyticsByFood = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnSystemSetup
@@ -66,11 +67,23 @@
             this.btnAnalytics.UseVisualStyleBackColor = true;
             this.btnAnalytics.Click += new System.EventHandler(this.btnAnalytics_Click);
             // 
+            // btnAnalyticsByFood
+            // 
+            this.btnAnalyticsByFood.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAnalyticsByFood.Location = new System.Drawing.Point(469, 82);
+            this.btnAnalyticsByFood.Name = "btnAnalyticsByFood";
+            this.btnAnalyticsByFood.Size = new System.Drawing.Size(100, 100);
+            this.btnAnalyticsByFood.TabIndex = 2;
+            this.btnAnalyticsByFood.Text = "AnalyticsByFood";
+            this.btnAnalyticsByFood.UseVisualStyleBackColor = true;
+            this.btnAnalyticsByFood.Click += new System.EventHandler(this.btnAnalyticsByFood_Click);
+            // 
             // FeatureSelector
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(485, 248);
+            this.ClientSize = new System.Drawing.Size(667, 248);
+            this.Controls.Add(this.btnAnalyticsByFood);
             this.Controls.Add(this.btnAnalytics);
             this.Controls.Add(this.btnWork);
             this.Controls.Add(this.btnSystemSetup);
@@ -89,5 +102,6 @@
         private System.Windows.Forms.Button btnSystemSetup;
         private System.Windows.Forms.Button btnWork;
         private System.Windows.Forms.Button btnAnalytics;
+        private System.Windows.Forms.Button btnAnalyticsByFood;
     }
 }

@@ -31,7 +31,12 @@ namespace GUI
 
         private void btnAnalytics_Click(object sender, EventArgs e)
         {
-            new Analytics().ShowDialog();
+            new Analytics().ShowDialog();      
+        }
+
+        private void btnAnalyticsByFood_Click(object sender, EventArgs e)
+        {
+            new AnalyticsByFood().ShowDialog();
         }
     }
 }
