@@ -31,8 +31,11 @@
             this.btnSystemSetup = new System.Windows.Forms.Button();
             this.btnWork = new System.Windows.Forms.Button();
             this.btnAnalytics = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.btnAnalyticsByFood = new System.Windows.Forms.Button();
             this.btnKho = new System.Windows.Forms.Button();
+=======
+>>>>>>> parent of 8cf67f3... update thống kê món ăn
             this.SuspendLayout();
             // 
             // btnSystemSetup
@@ -68,6 +71,7 @@
             this.btnAnalytics.UseVisualStyleBackColor = true;
             this.btnAnalytics.Click += new System.EventHandler(this.btnAnalytics_Click);
             // 
+<<<<<<< HEAD
             // btnAnalyticsByFood
             // 
             this.btnAnalyticsByFood.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -90,13 +94,19 @@
             this.btnKho.UseVisualStyleBackColor = true;
             this.btnKho.Click += new System.EventHandler(this.btnKho_Click);
             // 
+=======
+>>>>>>> parent of 8cf67f3... update thống kê món ăn
             // FeatureSelector
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(777, 248);
             this.Controls.Add(this.btnKho);
             this.Controls.Add(this.btnAnalyticsByFood);
+=======
+            this.ClientSize = new System.Drawing.Size(485, 248);
+>>>>>>> parent of 8cf67f3... update thống kê món ăn
             this.Controls.Add(this.btnAnalytics);
             this.Controls.Add(this.btnWork);
             this.Controls.Add(this.btnSystemSetup);
@@ -115,7 +125,10 @@
         private System.Windows.Forms.Button btnSystemSetup;
         private System.Windows.Forms.Button btnWork;
         private System.Windows.Forms.Button btnAnalytics;
+<<<<<<< HEAD
         private System.Windows.Forms.Button btnAnalyticsByFood;
         private System.Windows.Forms.Button btnKho;
+=======
+>>>>>>> parent of 8cf67f3... update thống kê món ăn
     }
 }
