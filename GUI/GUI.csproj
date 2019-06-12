@@ -60,33 +60,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddProducts.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddProducts.Designer.cs">
-      <DependentUpon>AddProducts.cs</DependentUpon>
-    </Compile>
     <Compile Include="Analytics.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Analytics.Designer.cs">
       <DependentUpon>Analytics.cs</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="QuanLyKho.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="QuanLyKho.Designer.cs">
-      <DependentUpon>QuanLyKho.cs</DependentUpon>
-    </Compile>
-=======
->>>>>>> parent of 8cf67f3... update thống kê món ăn
     <Compile Include="StaffWorking\AddDiscountDialog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -260,21 +245,12 @@
     </Compile>
     <Compile Include="Utilities\UtilsForm.cs" />
     <Compile Include="Utilities\UtilsImage.cs" />
-    <EmbeddedResource Include="AddProducts.resx">
-      <DependentUpon>AddProducts.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Analytics.resx">
       <DependentUpon>Analytics.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="QuanLyKho.resx">
-      <DependentUpon>QuanLyKho.cs</DependentUpon>
-    </EmbeddedResource>
-=======
->>>>>>> parent of 8cf67f3... update thống kê món ăn
     <EmbeddedResource Include="StaffWorking\AddDiscountDialog.resx">
       <DependentUpon>AddDiscountDialog.cs</DependentUpon>
     </EmbeddedResource>
@@ -424,9 +400,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app_icon.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Kho\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

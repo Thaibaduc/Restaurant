@@ -22,7 +22,6 @@ namespace DAL
         public virtual DbSet<OrderDetail> OrderDetails { get; set; }
         public virtual DbSet<OrderTable> OrderTables { get; set; }
         public virtual DbSet<Table> Tables { get; set; }
-        public virtual DbSet<Product> Products { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

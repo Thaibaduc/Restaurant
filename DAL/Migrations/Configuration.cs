@@ -34,12 +34,6 @@
             string absolute = Path.GetFullPath(Path.Combine(baseDirectory, relative));
             AppDomain.CurrentDomain.SetData("DataDirectory", absolute);
 
-            context.Products.AddOrUpdate(
-                new Product { ID = 1, Name = "Thịt bò", Quantity = 10 },
-                new Product { ID = 2, Name = "Thịt lợn", Quantity = 11 },
-                new Product { ID = 3, Name = "Thịt gà", Quantity = 12 }
-                );
-
             context.Areas.AddOrUpdate(
                 new Area { ID = 1, Name = "Tầng 1" },
                 new Area { ID = 2, Name = "Tầng 2" }

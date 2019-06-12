@@ -43,7 +43,7 @@ namespace BLL
                          group o by new { DateCreated = o.DateCreated.Value.Day } into oGroup
                          select new ReportType
                          {
-                             RawDateCreated = oGroup.Key.DateCreated+"/"+month+"/"+year,
+                             RawDateCreated = oGroup.Key.DateCreated + "/" + month + "/" + year,
                              RawTotalRevenue = oGroup.Sum(x => x.PriceAfter),
                              NumOrder = oGroup.Count(),
                          };
