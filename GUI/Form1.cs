@@ -24,8 +24,8 @@ namespace GUI
         private void LoadData()
         {
             AnalyticsByFoodBLL analyticsByFoodBLL = new AnalyticsByFoodBLL();
-            
-            this.rp = analyticsByFoodBLL.GetAnalyticsByMonth(this.dateTimePicker1.Value.Month, this.dateTimePicker1.Value.Year);
+
+            this.rp = analyticsByFoodBLL.GetAnalyticsFood();
             this.rp.Sort();
             this.dataGridView1.DataSource = rp;
         }
